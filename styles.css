@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9cccc; /* Black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+/* Business Card Styles */
+.business-card {
+    background: linear-gradient(135deg, #f2aaaa, #9fd6ea, #f4cdcd, #b3e3b3, #d4e7eb, #d3d3f1, #e2dfe4); /* Multicolor gradient */
+    background-size: 400% 400%; /* Smooth gradient transition */
+    animation: gradientAnimation 8s ease infinite; /* Gradient animation */
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7); /* Enhanced shadow */
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+    color: #fff; /* White text */
+    overflow: hidden;
+    position: relative;
+}
+
+/* Gradient Animation */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Header Section */
+.card-header {
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 15px;
+}
+
+.card-header h1 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000000; /* Golden text */
+}
+
+.card-header .title {
+    font-size: 1.1rem;
+    color: #000000;
+    font-style: italic;
+    margin: 0;
+}
+
+/* Body Section */
+.card-body p {
+    font-size: 0.95rem;
+    margin: 10px 0;
+    color: #000000;
+}
+
+.card-body strong {
+    color: #ffd700; /* Highlighted golden labels */
+}
+
+.card-body a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-body a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* Footer Section */
+.card-footer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #000000;
+}
+
+/* Stylish Overlay */
+.business-card::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    z-index: 1;
+    filter: blur(30px);
+}
+
+.business-card::after {
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    z-index: 1;
+    filter: blur(30px);
+}
