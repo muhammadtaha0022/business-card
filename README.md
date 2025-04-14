@@ -2,8 +2,6 @@
 
 A responsive business card built with pure HTML & CSS. Perfect for sharing contact details digitally!
 
-![Business Card Preview](https://i.imgur.com/JxW10F5.png) *(Replace with your actual screenshot)*
-
 ## 🌟 Features
 - 📱 **Mobile-first** responsive design
 - 🎨 **Customizable** colors and themes
