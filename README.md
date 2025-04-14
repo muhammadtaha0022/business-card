@@ -15,9 +15,4 @@ A responsive business card built with pure HTML & CSS. Perfect for sharing conta
 | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white) | Card structure |
 | ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white) | Styling and animations |
 | ![Flexbox](https://img.shields.io/badge/-Flexbox-7952B3) | Responsive layout |
-| ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?logo=visual-studio-code) | Development |
-
-## 🚀 Quick Start
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/business-card.git
+| ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?logo=visual-studio-code) | Development
