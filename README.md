@@ -17,5 +17,5 @@ A responsive business card built with pure HTML & CSS. Perfect for sharing conta
 | ![Flexbox](https://img.shields.io/badge/-Flexbox-7952B3) | Responsive layout |
 | ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?logo=visual-studio-code) | Development
 
-1234526789,10
+1234526789,102
 1
